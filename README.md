@@ -41,18 +41,10 @@ Greencart is a full-stack e-commerce web application that allows users to browse
 ---
 
 ## 📂 Project Structure
-greencart/
-│
-├── client/ # Frontend (React)
-├── server/ # Backend (Node + Express)
-│ ├── routes/
-│ ├── controllers/
-│ ├── models/
-│ └── .env.example
-│
-├── .gitignore
-├── package.json
-└── README.md     
+
+<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103933" src="https://github.com/user-attachments/assets/d2776f29-7b60-4ddd-a9e6-5b06687a7609" />
+
+
 
 
 
@@ -72,4 +64,3 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 ```
 
 
-<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103933" src="https://github.com/user-attachments/assets/d2776f29-7b60-4ddd-a9e6-5b06687a7609" />
