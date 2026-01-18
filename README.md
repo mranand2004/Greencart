@@ -1,33 +1,30 @@
-# 🚀 AI-Powered Resume Builder (MERN Stack)
-<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/ea21b326-76e8-4cae-ac98-3935b7edc8e3" />
+
+# 🛒 Greencart – E-Commerce Web Application
+
+<img width="1836" height="868" alt="image" src="https://github.com/user-attachments/assets/478d9a72-e5b9-4e7b-9ca8-c35e6f276411" />
 
 
-
-AI-Powered Resume Builder is a full-stack web application that enables users to create, customize, preview, and manage professional resumes using modern templates and AI-assisted content generation.  
-The project is built using the **MERN stack**, focusing on scalability, security, and an intuitive user experience.
+Greencart is a full-stack e-commerce web application that allows users to browse products, manage a shopping cart, and securely place orders. The project is built using modern web technologies with a focus on scalability, security, and clean architecture.
 
 ---
 
 ## 🚀 Features
 
-- User authentication and authorization (JWT-based)
-- Create, edit, and manage multiple resumes
-- AI-generated professional summaries and content
-- Live resume preview while editing
-- Multiple modern resume templates
-- Custom color and layout selection
-- Profile image upload support
-- Secure backend APIs
+- User authentication and authorization (JWT based)
+- Product listing and detailed product view
+- Add to cart & remove from cart functionality
+- Secure payment integration (Stripe)
+- Order management system
 - Responsive UI for all devices
+- Environment-based configuration for security
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React (Vite)
-- Redux Toolkit
-- Tailwind CSS
+- React.js
+- HTML5, CSS3, JavaScript
 - Axios
 
 ### Backend
@@ -35,46 +32,35 @@ The project is built using the **MERN stack**, focusing on scalability, security
 - Express.js
 - MongoDB
 - Mongoose
-- JWT Authentication
 
 ### Other Tools & Services
-- OpenAI / AI API (Resume content generation)
-- ImageKit (Image storage)
-- Multer (File uploads)
+- Stripe (Payment Gateway)
+- JWT (Authentication)
 - Git & GitHub
 
 ---
 
 ## 📂 Project Structure
 
-<img width="5941" height="607" alt="Decision Options Flow Model-2026-01-18-110110" src="https://github.com/user-attachments/assets/3c69c7b4-b30d-49ba-934f-a470fbd0bf6a" />
+<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103933" src="https://github.com/user-attachments/assets/d2776f29-7b60-4ddd-a9e6-5b06687a7609" />
+
+
+
+
 
 ---
 
 ## 🔐 Environment Variables
 
-For security reasons, `.env` files are **not included** in the repository.
+For security reasons, `.env` files are not included in the repository.
 
-Create a `.env` file inside the **server** folder and add the following:
-
-
+Create a `.env` file inside the `server` folder and add the following:
 
 ```env
-# Server Configuration
-PORT=5000
-NODE_ENV=development
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
 
-# MongoDB Configuration
-MONGO_URI=your_mongodb_connection_string
+```
 
-# JWT Authentication
-JWT_SECRET=your_jwt_secret_key
-JWT_EXPIRE=7d
 
-# AI Configuration
-AI_API_KEY=your_ai_api_key
-
-# ImageKit Configuration
-IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
