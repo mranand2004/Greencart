@@ -45,7 +45,7 @@ The project is built using the **MERN stack**, focusing on scalability, security
 
 ## 📂 Project Structure
 
-<img width="1870" height="8192" alt="Decision Options Flow Model" src="https://github.com/user-attachments/assets/7e39c1d7-a20b-4975-ae06-ed6b39c85b15" />
+<img width="5941" height="607" alt="Decision Options Flow Model-2026-01-18-110110" src="https://github.com/user-attachments/assets/3c69c7b4-b30d-49ba-934f-a470fbd0bf6a" />
 
 ---
 
@@ -54,9 +54,6 @@ The project is built using the **MERN stack**, focusing on scalability, security
 For security reasons, `.env` files are **not included** in the repository.
 
 Create a `.env` file inside the **server** folder and add the following:
-
-
-<img width="1870" height="8192" alt="Project Structure Diagram" src="https://github.com/user-attachments/assets/7e39c1d7-a20b-4975-ae06-ed6b39c85b15" />
 
 
 
