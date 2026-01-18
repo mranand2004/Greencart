@@ -1,4 +1,6 @@
 # 🚀 AI-Powered Resume Builder (MERN Stack)
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/ea21b326-76e8-4cae-ac98-3935b7edc8e3" />
+
 
 
 AI-Powered Resume Builder is a full-stack web application that enables users to create, customize, preview, and manage professional resumes using modern templates and AI-assisted content generation.  
