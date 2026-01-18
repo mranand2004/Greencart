@@ -41,4 +41,33 @@ Greencart is a full-stack e-commerce web application that allows users to browse
 ---
 
 ## 📂 Project Structure
+greencart/
+│
+├── client/ # Frontend (React)
+├── server/ # Backend (Node + Express)
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ └── .env.example
+│
+├── .gitignore
+├── package.json
+└── README.md     
+
+
+---
+
+## 🔐 Environment Variables
+
+For security reasons, `.env` files are not included in the repository.
+
+Create a `.env` file inside the `server` folder and add the following:
+
+```env
+MONGODB_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+
+
+<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103516" src="https://github.com/user-attachments/assets/4643fd46-3f9f-4a7a-8157-1edbfc07c15e" />
 
