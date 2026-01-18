@@ -72,4 +72,4 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 ```
 
 
-<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103516" src="https://github.com/user-attachments/assets/4643fd46-3f9f-4a7a-8157-1edbfc07c15e" />
+<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103933" src="https://github.com/user-attachments/assets/d2776f29-7b60-4ddd-a9e6-5b06687a7609" />
