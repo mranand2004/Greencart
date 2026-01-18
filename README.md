@@ -55,7 +55,6 @@ greencart/
 └── README.md     
 
 
-<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103516" src="https://github.com/user-attachments/assets/4643fd46-3f9f-4a7a-8157-1edbfc07c15e" />
 
 ---
 
@@ -70,5 +69,7 @@ MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
+```
 
 
+<img width="5122" height="2672" alt="Untitled diagram-2026-01-18-103516" src="https://github.com/user-attachments/assets/4643fd46-3f9f-4a7a-8157-1edbfc07c15e" />
